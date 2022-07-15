@@ -11,15 +11,15 @@
     margin: 15px;
     align-items: center;
     justify-content: center;
-    background: pink;
+    background:#c0ffe1;
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
   }
   .container {
     height: 80vh;
-    max-width: 370px;
+    max-width: 600px;
     width: 100%;
-    background: green;
+    background: #008058;
     border-radius: 5px;
     box-shadow: 0 5 px 10px rgba(0, 0, 0, 0.5);
     padding: 1em 2em;
@@ -38,28 +38,31 @@
     outline: none;
     border: none;
     border-radius: 5px;
-    background: yellow;
+    background: white;
     color: black;
     padding: 0 10px;
     margin: 1em 0;
   }
   
   #add-btn{
+    font-size: 30px;
+    color: red;
     height: 40px;
     width: 40px;
     border: 0;
     margin-left: 5px;
     border-radius: 5px;
-    background-color: #660abb;
-    color: #fff;
+    background-color: bisque;
+    
   }
   
   #input::placeholder {
     color: #bbb;
   }
   ul {
-    background: #eee;
-    color: #333;
+    font-size: 30px;
+    background:bisque;
+    color: #32cdcb;
     height: 80%;
     border-radius: 7px;
     margin: 15px 0;
